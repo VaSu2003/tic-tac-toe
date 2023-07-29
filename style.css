@@ -1,0 +1,18 @@
+.wrapper{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper div{
+    height: 98px;
+    width: 98px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+#cross-img{
+    height: 98px;
+    background-color: blueviolet;
+
+}
