@@ -64,6 +64,42 @@ function checkforWin(){
         clearInterval(timeId)
     }
 
+
+    //check for zero win 
+
+    if(document.getElementById('one').classList == 'zero-selected' && document.getElementById('four').classList == 'zero-selected' && document.getElementById('seven').classList == 'zero-selected'){
+        console.log('zero YOu won')
+        clearInterval(timeId)
+    }
+    if(document.getElementById('one').classList == 'zero-selected' && document.getElementById('two').classList == 'zero-selected' && document.getElementById('three').classList == 'zero-selected'){
+        console.log('zero YOu won')
+        clearInterval(timeId)
+    }
+    if(document.getElementById('three').classList == 'zero-selected' && document.getElementById('six').classList == 'zero-selected' && document.getElementById('nine').classList == 'zero-selected'){
+        console.log('zero YOu won')
+        clearInterval(timeId)
+    }
+    if(document.getElementById('seven').classList == 'zero-selected' && document.getElementById('eight').classList == 'zero-selected' && document.getElementById('nine').classList == 'zero-selected'){
+        console.log('zero YOu won')
+        clearInterval(timeId)
+    }
+    if(document.getElementById('three').classList == 'zero-selected' && document.getElementById('five').classList == 'zero-selected' && document.getElementById('seven').classList == 'zero-selected'){
+        console.log('zero YOu won')
+        clearInterval(timeId)
+    }
+    if(document.getElementById('one').classList == 'zero-selected' && document.getElementById('five').classList == 'zero-selected' && document.getElementById('nine').classList == 'zero-selected'){
+        console.log('zero YOu won')
+        clearInterval(timeId)
+    }
+    if(document.getElementById('four').classList == 'zero-selected' && document.getElementById('five').classList == 'zero-selected' && document.getElementById('six').classList == 'zero-selected'){
+        console.log('zero YOu won')
+        clearInterval(timeId)
+    }
+    if(document.getElementById('two').classList == 'zero-selected' && document.getElementById('five').classList == 'zero-selected' && document.getElementById('eight').classList == 'zero-selected'){
+        console.log('zero YOu won')
+        clearInterval(timeId)
+    }
+
 }
 
 let timeId = setInterval(()=>{
